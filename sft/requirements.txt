@@ -1,0 +1,20 @@
+# PDF processing
+PyPDF2
+
+# Data handling and manipulation
+pandas
+numpy
+
+# NLP and text processing
+nltk
+
+# OpenAI API
+openai
+
+# Async programming
+asyncio
+
+# Progress bar for loops
+tqdm
+
+python-Levenshtein
