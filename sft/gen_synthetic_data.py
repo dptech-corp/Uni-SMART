@@ -84,11 +84,10 @@ async def main(num_samples, model, k, domain, task, save_results=False, temperat
     if azure_configs == []:
         raise ValueError("You need to set up your own Azure configs for the GPT models.")
 
-    # TODO: remove below for the final version!!!
+    # Set up your own Azure configs, e.g.
     # azure_configs = [
-    #     {"azure_endpoint": "https://shiyigong.openai.azure.com/", "api_version": "2024-03-01-preview", "api_key": "51cd69e0e8a14ab9a01332815f6af7d9"},
-    #     {"azure_endpoint": "https://zhaozhongyao.openai.azure.com/", "api_version": "2024-03-01-preview", "api_key": "57ee17fbb7bf4f0b82c60d584a67f6f1"},
-    #     {"azure_endpoint": "https://wangganchang.openai.azure.com/", "api_version": "2024-03-01-preview", "api_key": "20930ea10e184d1aa8d743fba77eca77"},
+    #     {"azure_endpoint": "..", "api_version": "..", "api_key": ".."},
+    #     {"azure_endpoint": "..", "api_version": "..", "api_key": ".."},
     # ]
 
     num_batches = len(azure_configs)
