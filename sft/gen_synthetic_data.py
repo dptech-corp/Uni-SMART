@@ -81,15 +81,15 @@ async def main(num_samples, model, k, domain, task, save_results=False, temperat
         raise ValueError(f"Invalid task: {task}. Only 'table_extraction' and 'mol_gen' are supported.")
            
     azure_configs = []
-    # if azure_configs == []:
-    #     raise ValueError("You need to set up Azure configs for the GPT models.")
+    if azure_configs == []:
+        raise ValueError("You need to set up your own Azure configs for the GPT models.")
 
     # TODO: remove below for the final version!!!
-    azure_configs = [
-        {"azure_endpoint": "https://shiyigong.openai.azure.com/", "api_version": "2024-03-01-preview", "api_key": "51cd69e0e8a14ab9a01332815f6af7d9"},
-        {"azure_endpoint": "https://zhaozhongyao.openai.azure.com/", "api_version": "2024-03-01-preview", "api_key": "57ee17fbb7bf4f0b82c60d584a67f6f1"},
-        {"azure_endpoint": "https://wangganchang.openai.azure.com/", "api_version": "2024-03-01-preview", "api_key": "20930ea10e184d1aa8d743fba77eca77"},
-    ]
+    # azure_configs = [
+    #     {"azure_endpoint": "https://shiyigong.openai.azure.com/", "api_version": "2024-03-01-preview", "api_key": "51cd69e0e8a14ab9a01332815f6af7d9"},
+    #     {"azure_endpoint": "https://zhaozhongyao.openai.azure.com/", "api_version": "2024-03-01-preview", "api_key": "57ee17fbb7bf4f0b82c60d584a67f6f1"},
+    #     {"azure_endpoint": "https://wangganchang.openai.azure.com/", "api_version": "2024-03-01-preview", "api_key": "20930ea10e184d1aa8d743fba77eca77"},
+    # ]
 
     num_batches = len(azure_configs)
     subset_size = len(synthetic_prmopt) // num_batches
