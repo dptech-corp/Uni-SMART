@@ -33,18 +33,18 @@ Uni-SMART uses a wide range of scientific literature data sources, including pat
 
    Samples that receive negative feedback will be meticulously annotated by internal domain experts to ensure that the model can learn and improve from these errors. Semi-automated tools will assist in this process to enhance annotation efficiency. Cases of negative feedback are typically divided into the following categories:
 
-   - Multimodal element recognition error;
-   - Recall content error;
-   - Domain knowledge error;
-   - Poor instruction adherence;
+   - Multimodal element recognition error.
+   - Recall content error.
+   - Domain knowledge error.
+   - Poor instruction adherence.
    
    Through detailed analysis of error types, promote more targeted improvements.
 6. Data Enhancement and Model Optimization
    Finally, the data annotated by experts, along with some positive feedback samples, are added to the model's training data to continuously expand the dataset. At the same time, optimize the pipeline based on different negative feedback cases from expert annotations.
 
    - Multimodal element recognition errors: Expand the training data for the parsing model, especially samples of parsing errors.
-   - Recall content error: Optimize Multimodal RAG plan;
-   (3) Domain knowledge error: Reinforcement continue pre-train;
+   - Recall content error: Optimize Multimodal RAG plan.
+   - Domain knowledge error: Reinforcement continue pre-train.
    - Poor instruction adherence: Expand the training data for LLM SFT.
 
    Continuously repeat this iterative process to optimize the overall performance of Uni-SMART.
