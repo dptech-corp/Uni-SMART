@@ -7,8 +7,7 @@
 <b>Try the latest version of Uni-SMART on <a href="https://uni-finder.dp.tech/">Uni-Finder</a>
 </p>
 
-<!-- [English | [中文](README_zh.md)]
-![](./resources/unismart.png) -->
+![](./resources/unismart.png)
 
 ## Update
 
@@ -55,7 +54,7 @@ This iterative pipeline significantly enhances Uni-SMART's performance in variou
 ## Evaluation
 ![](./resources/smart-result.png)
 
-## Model List
+## Uni-SMART Series Models
 
 | Model | Type | Seq Length | Download |
 | :---: | :---: | :---: | :---: |
