@@ -4,13 +4,16 @@
 
 ## ****Update****
 
+- 🔥 **News**: ``2024/10/14``: **We have released SciLitLLM-1.5 (7B and 14B)!**
 - ****🔥 **News**: ``2024/08/26``: We have released the weights of [SciLit-LLM-7B](https://huggingface.co/Uni-SMART/SciLitLLM), and disclosed the [Arxiv paper](https://arxiv.org/pdf/2408.15545).****
 
 ## **Model List**
 
-|         Model         | Type | Seq Length |                         Download                         |
-| :--------------------: | :--: | :--------: | :-------------------------------------------------------: |
-| UniSMART/SciLit-LLM-7B | Base |    128K    | [🤗 Huggingface](https://huggingface.co/Uni-SMART/SciLitLLM) |
+|           Model           |    Type    | Seq Length |                         Download                         |
+| :------------------------: | :---------: | :--------: | :-------------------------------------------------------: |
+| UniSMART/SciLitLLM-1.5-14B | Instruction |    128K    |                                                          |
+| UniSMART/SciLitLLM-1.5-7B | Instruction |    128K    |                                                          |
+|   UniSMART/SciLitLLM-7B   | Instruction |    128K    | [🤗 Huggingface](https://huggingface.co/Uni-SMART/SciLitLLM) |
 
 ## Overview
 
@@ -25,6 +28,7 @@ Scientific literature understanding is essential for extracting valuable insight
 <img src="assets/lit_understanding.png" alt="Scientific Literature Understanding" width="50%">
 
 ## Evaluation results
+
 
 ![Scientific Literature Understanding](assets/evaluation.png)
 
@@ -64,10 +68,13 @@ Please refer to each subdirectory for details.
 ****Please consider citing the following papers if you find our work helpful.****
 
 ```
-@article{li2024scilitllm,
-  title={SciLitLLM: How to Adapt LLMs for Scientific Literature Understanding},
-  author={Li, Sihang and Huang, Jian and Zhuang, Jiaxi and Shi, Yaorui and Cai, Xiaochen and Xu, Mingjun and Wang, Xiang and Zhang, Linfeng and Ke, Guolin and Cai, Hengxing},
-  journal={arXiv preprint arXiv:2408.15545},
-  year={2024}
+@misc{li2024scilitllmadaptllmsscientific,
+      title={SciLitLLM: How to Adapt LLMs for Scientific Literature Understanding}, 
+      author={Sihang Li and Jin Huang and Jiaxi Zhuang and Yaorui Shi and Xiaochen Cai and Mingjun Xu and Xiang Wang and Linfeng Zhang and Guolin Ke and Hengxing Cai},
+      year={2024},
+      eprint={2408.15545},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2408.15545}, 
 }
 ```
