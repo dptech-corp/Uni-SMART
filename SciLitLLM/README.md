@@ -4,16 +4,15 @@
 
 ## ****Update****
 
-- 🔥 **News**: ``2024/10/14``: **We have released SciLitLLM-1.5 (7B and 14B)!**
-- ****🔥 **News**: ``2024/08/26``: We have released the weights of [SciLit-LLM-7B](https://huggingface.co/Uni-SMART/SciLitLLM), and disclosed the [Arxiv paper](https://arxiv.org/pdf/2408.15545).****
+- 🔥 **News**: ``2024/10/14``: **We have released SciLitLLM-1.5 (7B and 14B) and [SciLitIns](https://huggingface.co/datasets/Uni-SMART/SciLitIns)!**
+- ****🔥 **News**: ``2024/08/26``: We have released the weights of SciLit-LLM-7B, and disclosed the [Arxiv paper](https://arxiv.org/pdf/2408.15545).****
 
 ## **Model List**
 
-|           Model           |    Type    | Seq Length |                         Download                         |
-| :------------------------: | :---------: | :--------: | :-------------------------------------------------------: |
-| UniSMART/SciLitLLM-1.5-14B | Instruction |    128K    |                                                          |
-| UniSMART/SciLitLLM-1.5-7B | Instruction |    128K    |                                                          |
-|   UniSMART/SciLitLLM-7B   | Instruction |    128K    | [🤗 Huggingface](https://huggingface.co/Uni-SMART/SciLitLLM) |
+|             Model             |    Type    | Seq Length |                                                 Download                                                 |
+| :---------------------------: | :---------: | :--------: | :-------------------------------------------------------------------------------------------------------: |
+| UniSMART/SciLitLLM-1.5-7B/14B | Instruction |    128K    | [🤗 ](https://huggingface.co/Uni-SMART/SciLitLLM)[Huggingface](https://huggingface.co/Uni-SMART/SciLitLLM-1.5) |
+|     UniSMART/SciLitLLM-7B     | Instruction |    128K    |                         [🤗 Huggingface](https://huggingface.co/Uni-SMART/SciLitLLM)                         |
 
 ## Overview
 
@@ -28,7 +27,6 @@ Scientific literature understanding is essential for extracting valuable insight
 <img src="assets/lit_understanding.png" alt="Scientific Literature Understanding" width="50%">
 
 ## Evaluation results
-
 
 ![Scientific Literature Understanding](assets/evaluation.png)
 
