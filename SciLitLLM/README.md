@@ -30,6 +30,8 @@ Scientific literature understanding is essential for extracting valuable insight
 
 ![Scientific Literature Understanding](assets/evaluation.png)
 
+To reproduce the baselines, you can refer to [SciRIFF_SciLitLLMs](https://github.com/Jn-Huang/SciRIFF_SciLitLLMs) and [SciAssess](https://github.com/sci-assess/SciAssess).
+
 ## SciLitLLM Pipeline
 
 SciLitLLM utilizes a two-stage pipeline:
